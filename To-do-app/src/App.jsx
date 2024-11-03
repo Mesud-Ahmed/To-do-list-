@@ -1,7 +1,7 @@
 import './App.css'
 
 import  CssBaseline  from '@mui/material/CssBaseline'
-import TodoList from './Todo/TodoList'
+import TodoList from './TodoList'
 function App() {
 
   return (
