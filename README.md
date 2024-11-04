@@ -1,6 +1,7 @@
 # To-Do List Application
 
-A simple, responsive To-Do List application built with React and Material-UI, featuring the ability to add, complete, and delete tasks. Tasks are saved in local storage, so they persist even after refreshing the page.
+A simple, responsive To-Do List application built with React and Material-UI.
+[Live Preview](https://to-do-list-kappa-swart-88.vercel.app/)
 
 ## Features
 - **Add new tasks** with a clear and functional input field.
