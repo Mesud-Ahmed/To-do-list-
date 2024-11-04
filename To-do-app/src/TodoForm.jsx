@@ -21,7 +21,7 @@ export default function TodoForm({addTodo}) {
 
                 <TextField
                     id="outlined-basic"
-                    label="Outlined"
+                    label="Add to do"
                     variant="outlined"
                     onChange={handleChange}
                     value={text}

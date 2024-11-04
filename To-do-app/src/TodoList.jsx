@@ -15,7 +15,7 @@ export default function TodoList() {
     useEffect(() => {
         localStorage.setItem("todos", JSON.stringify(todos))
     }, [todos])
-    
+
     const removeTodo = (id) => {
         setTodos((prev) => {
             return prev.filter((t) => t.id !== id)
@@ -36,7 +36,7 @@ export default function TodoList() {
     }
     const addTodo = (text) => {
         setTodos((prevTodos) => {
-            return [...prevTodos, { text: text, id: 8, completed: false }]
+            return [...prevTodos, { text: text, id: crypto.randomUUID(), completed: false }]
         })
     }
     return (
